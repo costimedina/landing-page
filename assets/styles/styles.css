@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header{
+    height: 10rem;
+    background-image: url("../imgs/landscape-header.jpg");
+    background-size: cover;
+    background-position: center;       
+}
+
+.header h1{
+    padding-top: 3rem;
+    font-weight: bold;
+    color: white;
+    text-align: center;    
+}
+
+.header p{
+    font-style: italic;
+    color: white;
+    text-align: center;    
+}
+.amigos{
+    width: 40%;
+    margin: auto;
+}
+
+.amigos td{
+    width: 50%;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+}
+
+.textoIzquierda{
+    text-align: left;
+}
+
+.textoDerecha{
+    text-align: right;
+    padding-right: 3rem;
+}
+
+.amigos img{
+    width: 80%;
+}
+
+.foto1{
+    border-top-right-radius: 100%;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+}
+
+.foto2{
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+}
+
+.logo1{
+    width: 4rem;
+    border: solid 1px black;
+}
+
+.footer{    
+    background-color: rgb(8, 8, 8);
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    padding-bottom: 5px;
+}
